@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700" role="img" aria-label="Logo Geraldinho Manutenções">
+  <defs>
+    <style>
+      .blue{fill:#25348f}
+      .blue-stroke{stroke:#25348f}
+      .black{fill:#111}
+      .white{fill:#fff}
+    </style>
+  </defs>
+
+  <!-- Grupo principal centralizado -->
+  <g transform="translate(700,330)">
+    <!-- Linha superior: G  [círculo com raio]  M -->
+    <g transform="translate(0,-100)" text-anchor="middle">
+      <!-- G preto (texto espesso) -->
+      <text x="-360" y="90" class="black" font-family="Arial, Helvetica, sans-serif" font-size="300" font-weight="900">G</text>
+
+      <!-- Círculo com raio em azul -->
+      <g transform="translate(0,40)">
+        <ellipse cx="0" cy="0" rx="170" ry="140" fill="none" class="blue-stroke" stroke-width="28"/>
+        <!-- Raio -->
+        <path class="blue" d="M -80 -110 L 90 -110 L -35 30 L 50 30 L -100 170 L -10 30 L -95 30 Z"/>
+      </g>
+
+      <!-- M preto (texto espesso inclinado levemente) -->
+      <g transform="translate(360,0) skewX(-8)">
+        <text x="0" y="90" class="black" font-family="Arial, Helvetica, sans-serif" font-size="300" font-weight="900">M</text>
+      </g>
+    </g>
+
+    <!-- Nome abaixo -->
+    <text x="0" y="220" class="blue" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="700" text-anchor="middle">Geraldinho Manutenções</text>
+  </g>
+</svg>
+

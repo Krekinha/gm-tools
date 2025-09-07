@@ -1,0 +1,4 @@
+export const NOME_EMPRESA = 'GERALDINHO MANUTENÇÕES';
+export const CNPJ_EMPRESA = 'CNPJ: 00.000.000/0000-00';
+
+
